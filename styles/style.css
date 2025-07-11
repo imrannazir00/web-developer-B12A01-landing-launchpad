@@ -182,8 +182,8 @@ main{
     height: 243px;
     padding: 24px;
     background-color:rgba(255, 255, 255, 0.5);
-    background: rgb(242, 237, 237);
     border-radius: 14px;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.1);
     
 }
 .card-star-logo img{
@@ -222,8 +222,10 @@ main{
 }
 /* ready-to-focus */
 .ready-to-focus{
-   fill: rgba(255, 255, 255, 1);
-    
+    background-color:rgba(255, 255, 255, 1);
+    padding: 71px 150px;
+    border-radius: 14px;
+    box-shadow: 0cap 0px 10px 0px rgba(207, 207, 207, 0.685);
 }
 .ready-title{
     font-size: 50px;
@@ -239,7 +241,7 @@ main{
     width: 840px;
     height: 364px;
     border-radius: 48px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 /* footer section */
@@ -272,10 +274,21 @@ main{
     font-size: 20px;
     padding: 20px 32px;
     margin: 19px 0;
+    border-radius: 10px;
+
 }
 .get-in-touch{
     width: 497px;
     height: 490px;
+}
+.message-textarea{
+    width: 497px;
+    height: 145px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
 }
 
 
