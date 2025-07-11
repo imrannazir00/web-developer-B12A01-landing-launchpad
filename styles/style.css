@@ -280,7 +280,6 @@ main{
     padding: 20px 32px;
     margin: 19px 0;
     border-radius: 10px;
-    
 
 }
 .get-in-touch{
@@ -290,11 +289,11 @@ main{
 .message-textarea{
     width: 497px;
     height: 145px;
-    padding: 20px 32px;
     border-radius: 10px;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 10px;
+    padding: 20px 32px;
+    
     
 }
 /* footer-section */
