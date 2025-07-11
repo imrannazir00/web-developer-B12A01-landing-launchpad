@@ -22,6 +22,7 @@ body{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 /* header-section */
 header{
@@ -77,6 +78,9 @@ header{
 .margin-btm{
     margin-bottom: 116px;
 }
+.margin-top{
+    margin-top: 116px;
+}
 .text-center{
     text-align: center;
 }
@@ -91,10 +95,11 @@ header{
     align-items: center;
     margin-bottom: 158px;  
 }
-.nav-logo{
-    font-size: 36px;
+.nav-logo h1{
+    font-size: 46px;
     line-height: 150%;
     color: #4E47FF;
+    font-weight: 900;
 }
 
 
@@ -290,6 +295,36 @@ main{
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
 }
+/* footer-section */
+.f-section{
+    max-width: 1450px;
+    margin: 0 auto;
+    height: 428px;
+    box-shadow: 0cap 0px 10px 0px rgba(207, 207, 207, 0.685);
+}  
+
+.f-logo{
+    font-size: 110px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+.f-description{
+    font-size: 16px;
+    color: #8987A1;
+    margin: 8px 0 20px 0;
+}
+.nav-sec li,a{
+    list-style: none;
+    text-decoration: none;
+}
+.section-f{
+    width: 531px;
+    height: 221px;
+    padding: 103px 455px;
+}
+
+
+
 
 
 
