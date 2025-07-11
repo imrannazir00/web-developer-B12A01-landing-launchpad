@@ -280,6 +280,7 @@ main{
     padding: 20px 32px;
     margin: 19px 0;
     border-radius: 10px;
+    
 
 }
 .get-in-touch{
@@ -294,6 +295,7 @@ main{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
+    
 }
 /* footer-section */
 .f-section{
@@ -316,6 +318,7 @@ main{
 .nav-sec li,a{
     list-style: none;
     text-decoration: none;
+    color: #8987A1;
 }
 .section-f{
     width: 531px;
