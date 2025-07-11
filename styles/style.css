@@ -6,21 +6,37 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /* universal-section */
 *{
     margin: 0;
     padding: 0; 
 }
+/* body */
+body{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
 /* header-section */
 header{
     background-image: url(../Assets/Hero-bg.png);
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     height: 698px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 116px;
+    /* margin: 0 auto; */
 }
 /* free-style */
+.bg-white{
+    background-color: #ffffff;
+}
 .normal-button{
     padding: 12px 35px;
     color: #ffffff;
@@ -30,9 +46,39 @@ header{
     font-size: 16px;
     font-weight: bold;
     line-height: 150%;
+
 }
+.normal-button:hover{
+    background-color: yellow;
+    color: #252432eb;
+}
+.flex{
+    display: flex;
+}
+.space-btw{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+
 .color1{
     color: #252432;
+}
+.color2{
+    color: rgba(37, 36, 50, 0.5);
+}
+.line-height{
+    line-height: 30px;
+}
+.margin-btm{
+    margin-bottom: 116px;
+}
+.text-center{
+    text-align: center;
 }
 
 /* nav-section */
@@ -44,6 +90,11 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 158px;  
+}
+.nav-logo{
+    font-size: 36px;
+    line-height: 150%;
+    color: #4E47FF;
 }
 
 
@@ -75,7 +126,163 @@ header{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    margin-top: 116px;
 }
+/* action-section */
+.action-sec{
+    width:527px ;
+    height: 203px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-subtitle{
+    font-size: 24px;
+    margin: 23px 0;
+}
+.webflow-img img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+/* Productive Users Section */
+
+.productive-users-section{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+.product-users{
+    padding: 50px 142px;
+
+}
+.product-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+.product-stats{
+    font-size: 80px;
+    color: #4E47FF;
+    font-family: inter;
+}
+.product-stat{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.product-datas{
+    margin-top: 40px;
+}
+/* user-feedbacks-section */
+.user-title{
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.user-card{
+    width: 366.67px;
+    height: 243px;
+    padding: 24px;
+    background-color:rgba(255, 255, 255, 0.5);
+    background: rgb(242, 237, 237);
+    border-radius: 14px;
+    
+}
+.card-star-logo img{
+    height: 20px;
+    width: 20px;
+}
+.uni-title{
+    margin: 24px 0;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E1E1E;
+}
+.card-subtitle{
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 8px;
+    color: #1E1E1E;
+}
+.user-img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 12px;
+}
+.user-name{
+    color: #757575;
+    font-size: 16px;
+    line-height: 140%;
+}
+.date{
+    font-size: 16px;
+    line-height: 140%;
+    color: #B3B3B3;
+}
+/* ready-to-focus */
+.ready-to-focus{
+   fill: rgba(255, 255, 255, 1);
+    
+}
+.ready-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+.ready-subtitle{
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 140%
+}
+.ready-to-focus img{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
+/* footer section */
+
+/* .lets-get-in-touch */
+
+/* .lets-get-in-touch{
+    max-width: 1258px;
+    width: 100%;
+    height: 651px;
+    margin: 0 91px;
+} */
+ .lets-get{
+    margin: 0 91px 14px 91px;
+    gap: 233px;
+    padding: 71px 0;
+
+ }
+
+.get-subtitle{
+    width: 528px;
+    height: 232px;
+    font-size: 97px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+.get-name-email{
+    width: 497px;
+    height: 70px;
+    font-size: 20px;
+    padding: 20px 32px;
+    margin: 19px 0;
+}
+.get-in-touch{
+    width: 497px;
+    height: 490px;
+}
+
+
+
+
+
+
 
 
 
